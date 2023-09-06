@@ -23,7 +23,7 @@ This repository contains an automated assessment designed to measure the debuggi
    - Set up your OpenAI API key by replacing `'YOUR_API_KEY_HERE'` in the code.
 
 2. **Running**:
-   - Execute the main script: `python main_script.py`.
+   - Execute the main script: `python assessment_script.py`.
    - Input the text for evaluation when prompted.
 
 3. **Output**:
