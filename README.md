@@ -1,31 +1,48 @@
 # Vandy-CS8395-mini-Challenge
-# Solution Evaluation Tool
+Certainly! Here's the README.md content for your project:
 
-This project allows you to evaluate multiple problem-solution pairs using OpenAI's ChatGPT.
+---
 
-## Setup
+### Debugging Mastery with Generative AI
 
-1. Install the required packages:
+This repository contains an automated assessment designed to measure the debugging abilities of Generative AI models, specifically contrasting the debugging prowess of an AI model against that of OpenAI's ChatGPT.
 
-pip install openai
+#### Novelty:
 
+1. **Debugging Mastery**: While many assessments focus on an AI's coding ability, our unique approach evaluates the debugging capability. This skill is crucial for developers and is an innovative way to measure AI's proficiency.
+   
+2. **Detailed Review**: The assessment doesn't just return a binary "correct/incorrect" verdict. It provides a comprehensive review, comparing the AI's solution to ChatGPT's solution based on various criteria.
 
-2. Ensure you've set up your OpenAI API key in the main script:
+3. **Diverse Difficulty Levels**: The problems span different difficulty levels, from beginner to expert, ensuring a thorough evaluation.
 
-openai.api_key = 'YOUR_OPENAI_API_KEY'
+#### How to Run the Benchmark:
 
-Usage
-Prepare your problem-solution pairs. There are 100 sample problems in the problems directory.
-Run the main evaluation script:
+1. **Setup**:
+   - Clone this repository.
+   - Ensure you have the `openai` library installed: `pip install openai`.
+   - Set up your OpenAI API key by replacing `'YOUR_API_KEY_HERE'` in the code.
 
-python your_evaluation_script_name.py
+2. **Running**:
+   - Execute the main script: `python main_script.py`.
+   - Input the text for evaluation when prompted.
 
-Follow the on-screen instructions to input your solutions for the problems and to set your evaluation criteria.
+3. **Output**:
+   - The script will print a detailed assessment, comparing the debugging abilities of the AI model against ChatGPT's.
 
-Receive an overall assessment based on the criteria you've provided.
+#### Criteria for Assessment:
 
-Note
-The quality of the assessment heavily depends on the clarity of your criteria and the format of your problems and solutions. Adjust the script as needed to fit your specific use case.
+1. **Correctness**: Evaluates if the AI model made the right corrections.
+2. **Comparison with ChatGPT**: Examines if the AI model made more or fewer changes than ChatGPT to fix the code.
+3. **Efficiency**: Compares the space and time complexity between the AI model's corrected version and ChatGPT's corrected version.
+
+#### Scoring:
+
+The score ranges from 0 to 100, with ChatGPT's debugging ability benchmarked at 80. The AI model's score will be higher or lower based on its relative performance against ChatGPT.
+
+#### Conclusion:
+
+This assessment provides a novel way to evaluate the debugging capabilities of Generative AI models. It offers a detailed review, making it an invaluable tool for understanding and benchmarking AI's code debugging proficiency.
+
 
 
 
