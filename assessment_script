@@ -1,7 +1,7 @@
 import openai
 
 # You'd need to set up your OpenAI API key here
-openai.api_key = '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'
+openai.api_key = 'Your api key here'
 
 def evaluate_solution(text):
     # Create the prompt for ChatGPT
