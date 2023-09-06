@@ -1,7 +1,4 @@
 # Vandy-CS8395-mini-Challenge
-Certainly! Here's the README.md content for your project:
-
----
 
 ### Debugging Mastery with Generative AI
 
